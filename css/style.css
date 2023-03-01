@@ -1,0 +1,56 @@
+/*Colour Sets*/
+:root {
+  --base-color: #;
+  --light-base-color: #;
+  --light-highlight: #;
+  --dark-highlight: #;
+  --text-color-one: #;
+  --text-color-two: #;
+  --shadow: #;
+}
+
+html, body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#page-container {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+  width: 100%;
+}
+
+#navigation-bar {
+  flex: 0 1 30px;
+  width: 100%;
+  height: 50px;
+  background-color: grey;
+}
+
+#leaflet-map {
+  flex: 1 1 auto;
+  width: 100vw;
+}
+
+#page-footer {
+  flex: 0 1 30px;
+  background-color: grey;
+  text-align: center;
+  overflow: hidden;
+
+}
+
+.country-selection {
+  width: 80%;
+  text-overflow: ellipsis;
+}
+
+.country-selection option {
+  width: 80%;
+}
+
+.load-results {
+  width: 50px;
+}
